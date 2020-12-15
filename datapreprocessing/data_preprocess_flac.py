@@ -3,9 +3,9 @@
 #Modified from https://github.com/JanhHyun/Speaker_Verification
 import glob
 import os
-import librosa
 import numpy as np
-
+import librosa
+import soundfile as sf
 
 #tried to use for Librispeech file
 
@@ -49,7 +49,8 @@ def save_spectrogram_tisv():
         for utter_name in os.listdir(folder):
             if utter_name[-4:] == '.flac':
                 utter_path = os.path.join(folder, utter_name)         # path of each utterance
-                utter, sr = librosa.core.load(utter_path, sr)        # load utterance audio
+               # utter, sr = soundfile.load(utter_path, sr)        # load utterance audio
+                utter, sr = sf.read(utter_path, samplerate)        # load utterance audio
                 intervals = librosa.effects.split(utter, top_db=30)         # voice activity detection 
                 # this works fine for timit but if you get array of shape 0 for any other audio change value of top_db
                 # for vctk dataset use top_db=100

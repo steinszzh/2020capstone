@@ -22,5 +22,10 @@ Most process can be read through Colab ipynb directly.
 
 Some result snap is loaded into Colab as well. 
 
-Due to many load of py file. 
-Some code will be shown under the folder.
+Due to many load of py file,
+Some code will be shown under these two folder.
+
+[PyTorch_Speaker_Verification-simplifier-workingCNN](https://github.com/steinszzh/2020capstone/tree/master/PyTorch_Speaker_Verification-simplifier-workingCNN)
+
+and [datapreprocessing](https://github.com/steinszzh/2020capstone/tree/master/datapreprocessing)
+

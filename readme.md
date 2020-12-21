@@ -23,4 +23,4 @@ Most process can be read through Colab ipynb directly.
 Some result snap is loaded into Colab as well. 
 
 Due to many load of py file. 
-Some sample will be shown under the folder.
+Some code will be shown under the folder.

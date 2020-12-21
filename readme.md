@@ -14,3 +14,13 @@ I used librispeech and TIMIT data set.
 
 ### Try to merge work into Pytorch Dataframe in Colab.
 
+
+
+## Final Project
+
+Most process can be read through Colab ipynb directly. 
+
+Some result snap is loaded into Colab as well. 
+
+Due to many load of py file. 
+Some sample will be shown under the folder.

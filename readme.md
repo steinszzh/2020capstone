@@ -20,6 +20,8 @@ I used librispeech and TIMIT data set.
 
 Most process can be read through Colab ipynb directly. 
 
+Read this [Final_Capstone_for_handing_in.ipynb](https://github.com/steinszzh/2020capstone/blob/master/Final_Capstone_for_handing_in.ipynb) 
+
 Some result snap is loaded into Colab as well. 
 
 Due to many load of py file,
